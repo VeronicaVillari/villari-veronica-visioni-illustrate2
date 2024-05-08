@@ -1,0 +1,906 @@
+body {
+    background-color: rgb(248, 245, 236);
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-family: "Lexend", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+margin: 0;
+padding: 0;
+}
+
+header {
+    max-width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+    font-size: 16px;
+    
+    
+  
+}
+header p a {
+    color: rgb(164, 8, 8);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header p a:hover{
+    text-decoration: underline;
+    color:rgb(164, 8, 8);
+}
+
+header a.attivo{
+    color: rgb(164, 8, 8);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    text-decoration: none;
+     
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+header nav ul a:hover {
+    text-decoration: underline;
+    color:rgb(164, 8, 8);
+
+}
+
+.linea {
+    margin: auto;
+    max-width: 1600px;
+    padding-top: 0px;
+    width: 1120px;
+    
+}
+
+
+section.titleinfo{
+    display:flex ;
+    justify-content: space-between;
+    padding-bottom: 250px; 
+    padding-left: 210px;
+    padding-top: 150px;
+    margin: auto;
+}
+
+section.title p {
+    font-size: 96px;
+    font-weight: bold;
+    color: rgb(164, 8, 8);
+    line-height: 110%;
+    letter-spacing: 3%;
+
+}
+
+section.title h1 {
+    font-size: 36px;
+    font-weight: 500;
+    padding-top: 15px;
+    letter-spacing: 3%;
+}
+
+section.info h2{
+    padding-right: 160px;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 30px;
+   
+}
+
+section.info h2.periodo {
+    padding-top: 20px;
+}
+
+section.red {
+    background-color: rgb(164, 8, 8);
+}
+
+ div.container {
+    padding: 200px 179px;    
+    max-height: 300px;
+    max-width: 1140px;
+
+}
+section.red div {
+    color: white;
+    padding-left: 220px;
+    padding-right: 220px;
+   
+}
+
+section.red div h1{
+    font-size: 24px;
+    line-height: 120%;
+
+}
+section.red div p{
+    font-size: 20px;
+    line-height: 140%;
+    padding-top: 35px;
+    
+
+}
+
+img {
+    max-width: 100%;
+    align-items: center;
+}
+
+section.artisti {
+    text-align: center;
+    padding: 60px;
+    font-size: 20px;
+    color:rgb(164, 8, 8) ;
+}
+
+section.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1100px;
+    margin: 48px auto;
+    gap: 25px;
+    padding-bottom: 200px;
+}
+
+section.card img{
+    height: 370px;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+
+section.card div{
+    border-radius: 8px;
+}
+
+section.card h1{
+    text-align: center;
+    padding: 16px 16px 16px 16px;
+    font-size: 20px;
+    color:whitesmoke;
+}
+
+.box{
+    transition: 0.5s;
+}
+
+.box img{
+    display: block;
+    
+}
+.box:hover{
+    transform: scale(1.1);
+    z-index: 2;
+
+}
+section.card div.icinori{
+    background-color: rgb(98, 62, 115);  
+}
+
+
+
+section.card div.clark{
+    background-color: rgb(206, 67, 45);
+    
+}
+
+section.card div.adrian{
+    background-color: rgb(81, 108, 197);
+    
+}
+
+
+
+section.card div.blow{
+    background-color: rgb(7, 74, 232);
+    
+}
+
+div.blow h1 a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+
+div.blow h1 a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    
+}
+
+
+
+section.card div.jullien{
+    background-color: rgb(118, 43, 48);
+    
+}
+
+section.card div.paukova{
+    background-color: rgb(131, 138, 87);
+    
+}
+
+section.card div.thompson{
+    background-color: rgb(254, 9, 8);
+    
+}
+
+section.card div.mander{
+    background-color: rgb(157, 28, 32);
+    
+}
+
+
+section.card div.robertson{
+    background-color: rgb(2, 175, 114);
+    
+}
+
+section.card div.robertson img{
+    width: 500px;
+    
+}
+
+footer {
+    background-color: rgb(164, 8, 8);
+    
+    
+}
+
+div.footer{
+    max-width: 1100px;
+    padding:100px 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav ul{
+    list-style-type: none;
+    color: whitesmoke;
+    align-content: center;
+}
+
+footer nav ul a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer nav ul a:hover {
+    text-decoration: underline;
+    color: #fd7979;
+
+    }
+
+
+   
+    section.titleartisti p {
+        font-size: 96px;
+        font-weight: bold;
+        color: rgb(164, 8, 8);
+        line-height: 110%;
+        letter-spacing: 3%;
+        padding-bottom: 350px;
+        padding-left: 210px;
+        padding-top: 150px;
+
+    }
+
+
+    section.redartisti {
+        background-color: rgb(164, 8, 8);
+    }
+    
+     div.container {
+        padding: 200px 179px;    
+        max-height: 400px;
+        max-width: 1140px;
+    }
+
+    section.redartisti div {
+        color: white;
+        padding-left: 220px;
+        padding-right: 220px;
+        padding-top: 50px;
+        
+        
+    }
+    
+    section.redartisti div h1{
+        font-size: 24px;
+        line-height: 120%;
+    
+    }
+
+    section.redartisti div p{
+        font-size: 18px;
+        line-height: 140%;
+        padding-top: 35px;  
+    }
+
+
+
+        .hero{
+            background-color: rgb(0, 66, 72);
+            height: 800px;
+            width: 100%;
+            position: relative;
+         }
+        .hero h1{
+            color: whitesmoke;
+            font-size: 72px;
+            margin: auto;
+            padding-left: 200px;
+            padding-top: 80px;
+         }
+        .hero div img{
+            position: absolute;
+            bottom: 0;
+            padding-right: 150px;
+            padding-left: 150px;
+
+         }
+
+         .bio {
+            padding: 190px;
+            padding-left: 180px;
+            padding-right: 350px;
+            padding-bottom: 100px;
+
+         }
+         .bio p {
+            padding-top: 25px;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 120%;
+         }
+
+         .opere {
+            padding: 100px;
+         }
+
+         .opere h1{
+            text-align: center;
+            color: rgb(164, 8, 8);
+            padding-bottom: 50px;
+         }
+         .grid {
+            column-count: 3;
+            column-gap: 16px;
+        }
+        
+        .grid img {
+            margin-bottom: 16px;
+            border-radius: 18px;
+            
+        }
+            
+             
+              .heropaul{
+            background-color: rgb(3, 53, 112);
+            height: 800px;
+            width: 100%;
+            position: relative;
+         }
+               .heropaul h1{
+            color: whitesmoke;
+            font-size: 72px;
+            margin: auto;
+            padding-left: 200px;
+            padding-top: 80px;
+            }
+             .heropaul div img{
+                position: absolute;
+                bottom: 0;
+                padding-right: 150px;
+             padding-left: 150px;
+
+             }
+             
+             
+                .heroadrian{
+                background-color: rgb(255, 174, 160);
+                height: 800px;
+                width: 100%;
+                position: relative;
+                
+             }
+                   .heroadrian h1{
+                color: whitesmoke;
+                font-size: 72px;
+                margin: auto;
+                padding-left: 200px;
+                padding-top: 80px;
+                }
+                 .heroadrian div img{
+                    position: absolute;
+                    bottom: 0;
+                    padding-right: 150px;
+                    padding-left: 400px;
+    
+                 }
+                     .titlesmall{
+                        font-size: 48px;
+                        font-weight: bold;
+                        color: rgb(164, 8, 8);
+                        line-height: 110%;
+                        letter-spacing: 3%;
+                        padding-right: 200px;
+                        padding-top: 15px;
+                
+                    }
+                    
+                    .titlesmall h1 {
+                        font-size: 24px;
+                        font-weight: 500;
+                       
+                        letter-spacing: 3%;
+                        color: #000;
+                    }
+
+                    .mostra{
+                        padding-left: 220px;
+                        padding-right: 220px;
+                        padding-bottom: 100px;
+                    }
+                    
+                    .mostra h1{
+                        text-align: center;
+                        color: rgb(164, 8, 8);
+                        padding-top: 100px;
+                        font-size: 42px;
+                        padding-bottom: 100px;
+                    }
+
+                    .mostra p {
+                        padding-left: 180px;
+                        padding-right: 180px;
+                        padding-top: 15px;
+                        line-height: 130%;
+                        font-size: 18px;
+                        font-weight: 400;
+                        
+                    }
+
+                    .mostra2 {
+                        padding-left: 220px;
+                        padding-right: 220px;
+                        padding-bottom: 300px;
+                        
+                    }
+                    
+                    
+                    .mostra2 p {
+                        padding-left: 180px;
+                        padding-right: 180px;
+                        padding-top: 15px;
+                        line-height: 130%;
+                        font-size: 18px;
+                        font-weight: 400;    
+                    }
+
+                    
+                    section.infopage p {
+                        font-size: 96px;
+                        font-weight: bold;
+                        color: rgb(164, 8, 8);
+                        line-height: 110%;
+                        letter-spacing: 3%;
+                        padding-bottom: 150px;
+                
+                    }
+                    
+                    .redinfo {
+                        background-color: rgb(164, 8, 8);
+                    }
+                    
+                     div.container {
+                        
+                        max-height: 400px;
+                        margin: auto;
+                        max-width: 1100px;
+                    }
+                
+                    .redinfo div {
+                        color: white;
+                        padding-left: 220px;
+                        padding-right: 220px;
+                        padding-top: 50px;
+                        
+                        
+                    }
+                    
+                    .redinfodiv h1{
+                        font-size: 24px;
+                        line-height: 120%;
+                    
+                    }
+                
+                    .redinfo div p{
+                        font-size: 18px;
+                        line-height: 140%;
+                        padding-top: 35px;  
+                    }
+
+                
+                    
+                    .mezzi h1{
+                        text-align: center;
+                        color: rgb(164, 8, 8);
+                        padding-top: 50px;
+                        font-size: 42px;
+                        padding-bottom: 35px;
+                    }
+
+                    .flex{
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 50px;
+                        margin: auto;
+                        max-width: 770px;
+                        padding:110px 0;
+                        
+                    }
+
+
+                    .bus h2 {
+                        height: 50px;
+                        background-color: rgb(164, 8, 8);
+                        border-radius: 8px 8px 0 0;
+                        padding-top: 15px; 
+                        width: 400px;
+                        text-align: center;
+                        color: white;
+
+
+                    }
+
+                    .bustext{
+                        background-color: rgb(227, 227, 227);
+                        height: 200px;
+                        padding-top: 50px;
+                        border-radius: 0 0 8px 8px;
+                    }
+
+                    .bustext nav ul{
+                        padding-top: 10px;
+                        padding-left: 20px;
+                        font-size: 16px;
+                        max-width: 300px;
+                        margin: auto;
+                        list-style-type: none;
+                        
+
+                    }
+
+                    .metro h2{ 
+                        height: 50px;
+                        background-color: rgb(164, 8, 8);
+                        border-radius: 8px 8px 0 0;
+                        padding-top: 15px; 
+                        width: 400px;
+                        text-align: center;
+                        color: white;
+
+                    }
+
+                    .metrotext {
+                        background-color: rgb(227, 227, 227);
+                        height: 200px;
+                        padding-top: 50px;
+                        border-radius: 0 0 8px 8px;
+                    }
+
+                    .metrotext p{
+                        padding-top: 10px;
+                        padding-left: 20px;
+                        font-size: 16px;
+                        max-width: 350px;
+                        margin: auto;
+
+                    }
+                    .treno {
+                        margin: auto;
+                        max-width: 770px;
+                        padding:110px 0;
+                    }
+
+                    .treno h2{
+                        background-color: rgb(164, 8, 8);
+                        text-align: center;
+                        color: white;
+                        height: 50px;
+                        border-radius: 8px 8px 0 0;
+                        padding-top: 15px;
+                    }
+
+                    .trenotext {
+                       background-color: rgb(227, 227, 227);
+                       height: 200px;
+                       padding-top: 30px;                     
+                    }
+
+                    .treno p{
+                        padding-top: 10px;
+                        padding-left: 16px;
+                        font-size: 16px;
+                        max-width: 600px;
+                        margin: auto;
+                   }
+
+                    .lab {
+                        margin: auto;
+                        max-width: 770px;
+                        padding:110px 0;
+                    }
+                    
+                    .lab h1{
+                        color: rgb(164, 8, 8);
+                        text-align: center;
+                        font-size: 42px;
+                        padding-bottom: 20px;
+                        max-width: 1100px;
+    
+                    }
+                    
+                    .lab p{
+                        padding-top: 15px;
+                        font-size: 18px;
+                    }
+
+@media (max-width:600px)   {
+                       
+
+
+
+header {
+    width: 400px;
+    font-size: 12px;
+    width: 100%;
+    padding-left: 35px;
+
+ 
+}       
+header p a {
+    width: 600px;
+}
+                        
+header nav ul {
+    font-size: 10px;
+    max-width: 500px;
+    padding-right: 55px;
+     
+}
+
+.linea{
+    width: 600px;
+}
+                    
+main{
+    width: 600px;
+   
+}
+
+section.titleinfo{
+    padding-left: 80px;
+    width: 600px;
+    
+}
+
+section.title p {
+    
+    font-size: 48px;
+}
+
+section.title h1 {
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+section.info h2{
+    font-size: 16px;
+
+}
+
+
+ div.container {
+    width: 600px;
+
+}
+section.red div {  
+    padding-left: 70px;    
+}
+
+section.red div h1{
+    font-size: 18px;
+    line-height: 120%;
+
+}
+section.red div p{
+    font-size: 14px;
+    padding-top: 20px;
+    
+
+}
+
+section.card{
+    grid-template-columns: repeat(1,1fr);
+    width: 350px;
+    margin: 48px auto;
+    gap: 25px;
+    padding-bottom: 200px;
+}
+
+div.footer{
+    max-width: 400px;
+    
+    
+}
+
+section.titleartisti p {
+    font-size: 56px;
+    padding-left: 80px;
+    
+
+}
+
+section.redartisti {
+    background-color: rgb(164, 8, 8);
+}
+
+ div.container {
+    width: 600px;
+}
+
+section.redartisti div {
+    width: 400px;
+    padding-left: 50px; 
+
+}
+
+section.redartisti div h1{
+    font-size: 18px;
+    line-height: 120%;
+}
+
+section.redartisti div p{
+    font-size: 14px;
+    padding-top: 20px; 
+}
+
+.hero{
+    width: 600px;
+    height: 400px;
+ }
+.hero h1{
+    font-size: 30px;
+    margin: auto;
+    padding-left:  40px; ;
+    
+   
+ }
+.hero div img{
+    width: 70%;
+    padding-left: 50px;
+
+ }
+
+
+ .bio {
+    width: 600px;
+
+ }
+ .bio p {
+    padding-top: 10px;
+    font-size: 12px;
+    width: 300px;
+    
+
+ }
+
+
+ .grid {
+    column-count: 1;
+    column-gap: 16px;
+    width: 70%;
+}
+
+.heropaul{
+    width: 600px;
+    height: 400px;
+ }
+       .heropaul h1{
+    font-size: 30px;
+    margin: auto;
+    padding-left:  40px; ;
+    
+    }
+     .heropaul div img{
+        width: 70%;
+        padding-left: 50px;
+    
+
+     }
+     
+     
+        .heroadrian{
+            width: 600px;
+            height: 400px;
+        
+     }
+.heroadrian h1{
+    font-size: 30px;
+    margin: auto;
+    padding-left:  40px; ;
+            
+        }
+
+ .heroadrian div img{
+ width: 70%;
+ padding-left: 50px;
+}
+
+
+.titlesmall{
+    font-size: 20px;
+  
+}
+
+.titlesmall h1 {
+    font-size: 14px;
+    line-height: 15px
+   
+    
+}
+
+ .mostra{
+     padding-left: 20px;                   
+                    }
+                    
+                    .mostra h1{
+                       
+                        font-size: 24px;
+                        
+                    }
+
+                    .mostra p {
+                        padding-top: 10px;
+    font-size: 12px;
+    width: 400px;
+    padding-left: 20px;
+    
+                        
+                    }
+
+                    .mostra2 {
+                        width: 600px;
+                        padding-left: 20px;  
+                        
+                    }
+                    
+                    
+.mostra2 p {
+    padding-top: 10px;
+    font-size: 12px;
+    width: 400px;
+    padding-left: 20px;             
+       
+                    }
+
+
+}
+               
